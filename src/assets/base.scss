@@ -1,0 +1,29 @@
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.el-table{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+
+.el-popper .el-cascader-panel{
+    max-height: 500px!important;
+}
+
+.el-steps{         //步骤条 add.vue
+    margin:20px 0;
+}
+
+.add-container .ql-editor{  //add.vue 富文本高度
+    min-height: 300px;
+}
